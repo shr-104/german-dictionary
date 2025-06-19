@@ -17,9 +17,9 @@ def print_entry(entries, word):
     print(get_semantics(word))
 
 def run_cli():
-    print("[bold magenta]📘 German Dictionary CLI – Press Enter to Exit[/bold magenta]")
+    print("[bold magenta]German Dictionary CLI – Press Enter to Exit[/bold magenta]")
     while True:
-        q = input("\n🔍 Word or sentence: ").strip()
+        q = input("\nWord or sentence: ").strip()
         if not q:
             break
         if " " in q:
